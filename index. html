@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="shortcut icon" href="lord.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Nikhil</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="#home" class="nav__link active-link">HOME</a>
+                    </li>
+
+                    <li>
+                        <a href="#about" class="nav__link">ABOUT</a>
+                    </li>
+
+                    <li>
+                        <a href="#projects" class="nav__link">PROJECTS</a>
+                    </li>
+
+                    <li>
+                        <a href="#resume" class="nav__link">RESUME</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="nav__link">CONTACTS</a>
+                    </li>
+
+                </ul>
+
+              <div class="nav__close" id="nav-close">
+                <i class="ri-close-large-line"></i>
+
+              </div>  
+
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+
+            </div>
+        </nav>
+
+    </header>
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <div class="home__image">
+                        <img src="sinh.jpg" alt="image" class="home__img">
+
+                    </div>
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/" target="_blank" class="home__link">
+                            <i class="ri-linkedin-fill"></i>
+
+                        </a>
+                        <a href="https://github.com/" target="_blank" class="home__link">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                        <a href="https://instagram.com/" target="_blank" class="home__link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+
+
+                    </div>
+
+                </div>
+
+                <div class="home__data grid">
+                    <p class="home__subtitle">HI! I am <span id="home-typed"></span>
+                    </p>
+
+                    <h1 class="home__title">NIKHIL BARADE</h1>
+                    <p class="home__description">
+                       Pre Final year ENTC student persuing B.E. degree from SPPU based in Pune. To know more about me see my portfolio.
+                    </p>
+                    <div class="home__buttons">
+                        <a href="" download="" target="_blank" class="button">Download CV</a>
+                        <a href="#projects" class="button button__ghost">Projects</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__content">
+                    <div class="about__data">
+                        <h2 class="section__title">About Me</h2>
+
+                        <p class="about__description">
+                            I am a full stack developer specializing in creating beautiful websites.I use creativity and techniqal knowledge to design websites.
+                        </p>
+
+                        <a href="#contact" class="button__contact">ContactMe
+
+                        </a>
+                    </div>
+                    
+                    <div class="about__skills">
+                     <h3 class="about__subtitle">
+                        <i class="ri-bookmark-3-fill"></i>
+                        <span>Skills</span>
+                     </h3>
+                    <ul class="about__items">
+                        <li class="about__item">JAVA</li>
+                        <li class="about__item">HTML</li>
+                        <li class="about__item">CSS</li>
+                        <li class="about__item">REACT</li>
+                        <li class="about__item">JAVASCRIPT</li>
+                        <li class="about__item">NEXTJS</li>
+                        <li class="about__item">GITHUB</li>
+                        <li class="about__item">GIT</li>
+                        <li class="about__item">C++</li>
+                        <li class="about__item">PYTHON</li>
+                    </ul>
+                    </div>
+
+                </div>
+
+                <div class="about__image">
+                    <img src="12.png" alt="image" class="about__img">
+
+                </div>
+            </div>
+        </section>
+        <section class="projects section" id="projects">
+            <h2 class="section__title">Projects</h2>
+
+            <div class="projects__container container grid">
+                
+                <article class="projects__card">
+                    <img src="grade.png" alt="image" class="projects_img">
+
+                    <div class="projects__data">
+                        <h3 class="projects__title">Student Grade Tracker</h3>
+                        <p class="projects__description">ANALYZE AND MANAGE STUDENT'S ACADEMIC PERFORMANCE.</p>
+                        <a href="#" target="_blank" class="button button__ghost">View Project</a>
+                    </div>
+                </article>
+
+                
+
+                <article class="projects__card">
+                    <img src="hotel.png" alt="image" class="projects_img">
+
+                    <div class="projects__data">
+                        <h3 class="projects__title">Hotel Resevation System</h3>
+                        <p class="projects__description">BOOK HOTEL ROOMS FOR YOUR NEXT JOURNEY.</p>
+                        <a href="#" target="_blank" class="button button__ghost">View Project</a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <img src="stock.png" alt="image" class="projects_img">
+
+                    <div class="projects__data">
+                        <h3 class="projects__title">Stock Trading System</h3>
+                        <p class="projects__description">INVEST IN STOCKS TO GROW.</p>
+                        <a href="#" target="_blank" class="button button__ghost">View Project</a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <img src="web.png" alt="image" class="projects_img">
+
+                    <div class="projects__data">
+                        <h3 class="projects__title">Portfolio Website</h3>
+                        <p class="projects__description">TO KNOW MORE ABOUT US GO THROUGH THIS PORTFOLIO. </p>
+                        <a href="#" target="_blank" class="button button__ghost">View Project</a>
+                    </div>
+                </article>
+
+                
+            </div>
+        </section>
+        <section class="resume section" id="resume">
+           <h2 class="section__title">My Resume</h2>
+
+            <div class="resume__container container grid">
+                 
+                <div class="resume__content grid">
+                    <h3 class="resume__subtitle">
+                        <i class="ri-award-fill"></i>
+
+                        <span>Experience</span>
+                    </h3>
+
+                    <div class="resume__list grid">
+                        <div class="resume__data">
+                            <h3 class="resume__title">Frontend Developer</h3>
+
+                            <div class="resume__info">
+
+                                <address>FutureIntern</address>
+                                <address>JAN 2026-Present</address>
+                            </div>
+
+                            <p class="resume__description">Building a personal portfolio website.</p>
+                        </div>
+
+                        <div class="resume__data">
+                            <h3 class="resume__title">Java Developer</h3>
+
+                            <div class="resume__info">
+
+                                <address>CodeAlpha</address>
+                                <address>JAN 2026 - Present</address>
+                            </div>
+
+                            <p class="resume__description">Developing the useful java platforms.</p>
+                        </div>
+
+                        
+                    </div>
+                </div>
+                
+                <div class="resume__content grid">
+                    <h3 class="resume__subtitle">
+                        <i class="ri-graduation-cap-fill"></i>
+
+                        <span>Education</span>
+                    </h3>
+
+                    <div class="resume__list grid">
+                        <div class="resume__data">
+                            <h3 class="resume__title">Higher Secondary Edu.</h3>
+
+                            <div class="resume__info">
+
+                                <address>Fergusson College</address>
+                                <address>2021-2023</address>
+                            </div>
+
+                            <p class="resume__description">Completed my boards.</p>
+                        </div>
+
+                        <div class="resume__data">
+                            <h3 class="resume__title">B.E. in ENTC</h3>
+
+                            <div class="resume__info">
+
+                                <address>DPCOE</address>
+                                <address>2023-2027</address>
+                            </div>
+
+                            <p class="resume__description">Persuing B.E. degree. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact section" id="contact">
+           
+            <h2 class="section__title">Contact Me</h2>
+            <div class="contact__container container grid">
+                 
+                <form action="" class="contact__form grid" id="contact-form">
+                    <input type="text" placeholder="Names" name="User_name" required class="contact__input">
+                    <input type="email" placeholder="Email" name="User_email" required class="contact__input">
+
+                    <textarea placeholder="Message"  name="User_message" required class="contact__input contact__area"></textarea>
+
+                    <button type="submit" class="button">Send Message</button>
+
+                    <p class="contact__message" id="contact-message"></p>
+                </form>
+
+                <div class="contact__content grid">
+                    <div class="contact__data grid">
+                        <address class="contact__address">
+                            <i class="ri-mail-fill"></i>
+
+                            <span>xyz@mail.com</span>
+                        </address>
+
+                        <address class="contact__address">
+                            <i class="ri-smartphone-fill"></i>
+
+                            <span>+91 0000000000</span>
+                        </address>
+
+                        <address class="contact__address">
+                            <i class="ri-map-pin-2-fill"></i>
+
+                            <span>Pune,India</span>
+                        
+
+                    </div>
+
+                    <div class="contact__social">
+                        <a href="https://www.whatsapp.com" target="_blank" class="contact__link">
+                            <i class="ri-whatsapp-fill"></i>
+
+                        </a>
+
+                        <a href="https://www.messenger.com" target="_blank" class="contact__link">
+                            <i class="ri-messenger-fill"></i>
+                        </a>
+
+                        <a href="https://telegram.org" target="_blank" class="contact__link">
+                            <i class="ri-telegram-2-fill"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+ </main>
+ <footer class="footer">
+    <div class="footer__container container grid">
+        <a href="#" class="footer__logo">Nikhil</a>
+
+        <div class="footer__links">
+            <a href="#home" class="footer__link">Home</a>
+
+            <a href="#about" class="footer__link">About</a>
+
+            <a href="#projects" class="footer__link">Projects</a>
+
+        </div>
+        <div class="footer__social">
+           <a href="https://www.facebook.com" target="_blank" class="footer__social-link">
+               <i class="ri-facebook-circle-fill"></i>
+           </a>
+
+           <a href="https://www.instagram.com" target="_blank" class="footer__social-link">
+               <i class="ri-instagram-fill"></i>
+           </a>
+
+           <a href="https://x.com" target="_blank" class="footer__social-link">
+              <i class="ri-twitter-x-line"></i>
+           </a>
+
+           <a href="https://www.youtube.com" target="_blank" class="footer__social-link">
+              <i class="ri-youtube-fill"></i>
+           </a>
+
+        </div>
+
+    </div>
+
+    <span class="footer__copy">
+        &#169; Thank you for your attention.
+    </span>
+ </footer>
+    <a href="" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
